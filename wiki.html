@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki</title>
+</head>
+
+<body>
+    <header>
+        <!-- Cabeçalho = Introduz algo-->
+        <h1> Estudo HTML </h1>
+        <h3> Conceitos introdutórios da linguagem</h3>
+
+        <nav>
+            <!--Agrupa links de navegaçao -->
+            <ol>
+                <li><a href="Introdução">Introdução</a></li>
+
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <!--Coonteudo principal da página -->
+        <section>
+            <!--Separa topicos ou conteudos -->
+            <h3> Uso de Tags</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsum, eaque quidem autem expedita
+                fugiat beatae, officiis laboriosam tempore dolorem harum, natus dolor tenetur nam veniam fuga! Ab,
+                incidunt similique.</p>
+        </section>
+
+
+        <section>
+            <h3> Uso de tabelas </h3>
+            <table border="1" cellpadding="3" style="border-collapse: collapse">
+                <!--style tira a borda dupla-->
+                <thead>
+                    <th colspan="4" Usuários></th>
+                    <!-- Cabeçalho da tabela -->
+                    <tr>
+                        <!-- linha da tabela--->
+                        <!--Atributo-->
+                        <th>Tipo</th>
+                        <th>Nome</th>
+                        <th>CPF</th>
+                        <th>Data_de_Nascimento</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <!--separação de linhas-->
+                        <td rowspan="2">Funcionário</td> <!-- rowspan quantidades de linhas que voce ocupa-->
+                        <td> yan barbosa louzada
+                            <!--table data-->
+                        </td>
+                        <td> 123.123.123-12</td>
+                        <td> 12/08/1987 </td>
+                    <tr>
+                        <td> joao almeida </td>
+                        <td> 123.123.123-12 </td>
+                        <td> 12/08/1987 </td>
+                    </tr>
+                    <tr>
+                        <td> Cliente</td>
+                        <td> Pedro alves cabral </td>
+                        <td> 123.123.123-12 </td>
+                        <td> 12/08/1987 </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <hr>
+        <table  border="1" cellpadding="4" style="border-collapse: collapse;">
+            <tr>
+                <td colspan="2">-1</td>
+                <td>0</td>
+                
+            </tr>
+            
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+
+        </table>
+
+
+
+
+
+
+    </main>
+    <hr />
+    <!--Horizontal Rule-->
+    <footer>
+        <!--Da informaçoês sobre autoria/encerra o conteudo-->
+        &copy;
+        <!--Simbolo comercial -->
+        <script>
+            document.write(new Date().getFullYear())
+
+        </script>
+        Soulcode Academy
+    </footer>
+
+</body>
+
+</html>
