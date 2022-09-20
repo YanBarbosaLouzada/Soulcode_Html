@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <!-- conteiner de inpts-->
+        <div>
+
+            <label for='CampoNome'>Nome completo </label><br>
+
+            <input id="CampoNome" name="CampoNome" type="text" placeholder="Escreva aqui" required>
+            <!-- label e um rotulo (da um nome)-->
+            <!--input e um campo de entrada de dados-->
+            <!-- required = obrigatorio -->
+            <!-- for= label-->
+            <!-- id =input-->
+        </div><br>
+
+        <div> <label for="CampoEmail">Email</label><br>
+            <input id="CampoEmail" name="CampoEmail" type="email" placeholder="usuario@exemplo.com" required>
+        </div><br>
+        <div>
+            <label for="CampoSenha"> Senha</label><br>
+            <input id="CampoSenha" name="CampoSenha" type="password" placeholder="Sua senha" required>
+        </div><br>
+        <div>
+            <label for="campoderofissao">Profissão</label><br>
+            <select id='campodeprofissao' name="campodeprofissao">
+                <option selected disabled value="" required=> Selecione uma opção</option>
+                <!--Nao quer que a opção seja selecionada -->
+                <option value="professor"> Professor</option>
+                <option value="tecnico">Técnico</option>
+                <option value="especialista">Especialista</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="">Idioma nativo</label><br><br>
+
+            <input id="checkIngles" name="campodeidioma" type="radio" value="ingles" required>
+            <label for="checkingles"> Inglês </label><br>
+
+            <input id="checkespanhol" name="campodeidioma" type="radio" value="espanhol" required>
+            <label for="checkespanhol"> Espanhol </label><br>
+
+            <input id="checkportugues" name="campodeidioma" type="radio" value="portugues" required>
+            <label for="checkportugues"> Português </label><br>
+
+        </div><br>
+        <div>
+            <label for="camporesumo">Fale sobre você </label><br>
+            <!-- minlength="30"maxlength="270" min e max de caracteres-->
+            <textarea id="camporesumo" name="camporesumo" minlength="30" maxlength="270" rows="5" cols="30"
+                placeholder="Descreva sua profissão" required></textarea>
+        </div><br>
+        <div>
+            <input id='checktermos ' type="checkbox" name="concordatermos" required>
+            <label for="checktermos ">Concordo com os termos de serviço </label>
+
+        </div><br>
+        <div>
+            <hr>
+            <button type="reset">LIMPAR TUDO</button><br><br>
+            <button type="button" onclick="alert('Olá')">Outra Ação</button><br><br>
+            <button type='submit'>Avançar</button>
+        </div>
+
+
+
+    </form>
+
+</body>
+
+</html>
