@@ -1,0 +1,58 @@
+/* 
+Para usar o css externo devvemos linkar ele ao html destino.
+*/
+
+
+
+
+p {
+    color: blue;
+    font-size: 20px;
+    text-decoration: underline;
+    /* Sublinha */
+}
+
+body {
+    background-color: rgb(209, 189, 248);
+    /* Muda a cor da pagina */
+    font-family: 'Raleway', sans-serif;
+    /* Muda a font da pagina */
+    /*fallback*/
+}
+
+/*
+TIPOS DE SELETOR BASICO
+1) Por elemento
+2)Por id # => estilização
+3) por class . => estilização
+*/
+
+h1,
+h2,
+h3 {
+    color: black
+}
+
+/* uso o id quando quero estilizar algo especisifico*/
+#meu-h1 {
+    font-weight: 100;
+}
+
+.cabecalho{
+    color: blue;
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.quadrado{
+    width: 250px;     /* comprimemnto */
+    height: 150px;    /* altura */
+    background-color: blueviolet;
+    border-radius: 20px;
+
+}
+.banner{
+    width:100%;
+    border-radius: 20px;
+    
+}
