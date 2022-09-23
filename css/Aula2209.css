@@ -1,0 +1,68 @@
+h3 {
+    background-color: blue;
+    border-radius: 8px;
+}
+
+/* colorir uma linha / caixa */
+
+.Box1{
+    background-color: blueviolet;
+    /* Distancia do espaçamento da div interno*/
+    padding: 16px;
+    /* Distancia do espaçamento externo da div / margem */
+    margin: 8px;
+    border-radius: 8px;
+}   
+.Box2{
+    background-color: aqua;
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 30px;  
+    /* Horario cima direita baixo esquerda */
+    margin: 11px 20px 15px 40px;
+    border-radius: 8px;
+
+}
+.Box3{
+    background-color: green;
+    /* Tipos da borda: dashedd, dotted, solid */
+    border: 4px solid salmon;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 11px;
+}
+.Box4{
+    background-color: brown;
+    /* width = largura */
+    width: 400px; 
+    padding: 20px;
+    border-radius: 8px;
+    border: 4px solid salmon;
+}
+*{
+    /* (*) Todos os elementos  */
+    box-sizing: border-box;
+}
+body{
+    
+    /*background: lightblue url("img_tree.gif") no-repeat fixed center;*/
+
+    padding: 0px; 
+    margin: 0px;
+    /*  ;
+    (Size = respeita dimensão / cover =zoom)*/
+    background-repeat: no-repeat;
+    /* no-repeat = nao repete */
+    /*background-position: center*/
+    /* right bottom = inferior direito */
+    background-position:right bottom;
+    background-image:url("https://soulcodeacademy.org/assets/images/logo/light-logo.png");
+    /* fixa imagem  */
+    background-attachment: fixed;
+
+    
+    
+
+}
+    

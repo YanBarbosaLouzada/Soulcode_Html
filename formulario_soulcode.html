@@ -6,33 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SoulCODE</title>
+    <link rel="stylesheet" href="css/style_formulario.css">
 </head>
 
 <body>
-    <hr>
-    <img src="img/light-logo.png" whidth="100">
-    <h2> Bem-vindo! Entre com seu email e senha.</h2><br>
-    <div>
-
-        <label for='CampoEmail'>Email </label><br>
-        <input id="CampoEmail" name="CampoEmail" type="email" placeholder="email@exemplo.com" required>
-
+    <form>
+    <div class="box1">
+    
+    <img class=" imagem " src="img/light-logo.png" whidth="100">
+    <h2 class="h2"> Bem-vindo! Entre com seu email e senha.</h2><br>
+    
     </div><br>
-    <div>
 
-        <label for='CampoSenha'>Senha </label><br>
-        <input id="CampoSenha" name="CampoSenha" type="password" placeholder='Sua senha' required>
+    <div class=" box2">
 
+        <label for="CampoEmail">Email </label><br>
+        <input id="CampoEmail" name="CampoEmail" type="email" placeholder="email@exemplo.com" required><br><br>
 
-    </div><br>
-    <hr>
-    <div>
-        <button type="submit"> Login</button><br>
-        <input id='checktermos ' type="checkbox" name="concordatermos" required>
-        <label for="checktermos "> Continuar conctado?</label>
-    </div>
+        <label for="CampoSenha">Senha </label><br>
+        <input id="CampoSenha" name="CampoSenha" type="password" placeholder='Sua senha' required><br><br>
 
-    <table border="1" cellpadding="3" style="border-collapse: collapse">
+        <input id="checktermos" type="checkbox" name="concordatermos" required>
+        <label for="checktermos"> Continuar conctado?</label><br><br>
+        
+        
+        <button type='submit'>Avançar</button>
+       </div><br>
+    
+    <div class="box5">
+    <table class="box4" border="1" cellpadding="3" style="border-collapse: collapse">
         
 
         <thead>
@@ -71,7 +73,7 @@
                 <td>Bolsa Integral</td>
                 <td>até 16/01/23</td>
                 <td>30/01/23</td>
-                <td>16semanas</td>
+                <td>16 semanas</td>
                 <td>8h às 18h</td>
                 <td>Online e ao vivo</td>
                 <td>Português</td>
@@ -102,11 +104,12 @@
             
 
         </tbody><br>
-        <div>
+        
+        
 
         </div>
 
-
+</form>
 
 
 

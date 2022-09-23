@@ -1,0 +1,38 @@
+
+body{
+    background-color: rgb(164, 205, 246);
+    padding: 0px; 
+    margin: 0px;
+    
+}
+
+.box1{
+    background-color: rgb(84, 99, 238);
+    border-radius: 10px;
+    border: 5px solid rgb(3, 17, 105)
+    
+    
+}
+
+.box2{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto; 
+   
+   
+   }
+
+
+.box4{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40px;
+    background-color: rgb(163, 241, 205);
+}
+.imagem{
+    margin-inline-start: 100px;
+}
+.h2{
+    margin-inline-start: 100px;
+}
+
