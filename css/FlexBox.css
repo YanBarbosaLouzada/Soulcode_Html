@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.box-1 {
+    background-color: chartreuse;
+}
+
+.box-2 {
+    background-color: blueviolet;
+}
+
+.box-3 {
+    background-color: darkcyan;
+}
+
+.box-4 {
+    background-color: rgb(202, 165, 218);
+}
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+    width: 200px;
+    padding: 8px;
+    border-radius: 8px;
+    height: 200px;
+    
+
+}
+
+
+.conteiner-flex {
+    background-color: bisque;
+    display: flex;
+
+    /* Column coloca um em baixo do outro /// Row ele coloca um do lado do outro!  */
+    flex-direction: row;
+    /* Ativa uma flex box coloca lado a lado todos os seus filhos/div */
+    /*
+    column= elemuda a direção de cima pra baixo 
+    row= ele centraliza
+    */
+
+
+    flex-wrap: wrap;
+
+    /* Respeita a largura colocada (quebra alinha ) */
+
+    justify-content: center;
+
+    /* Column = É igual so que e tudo um em baixo do outro em colunas  */
+    /*     
+    Center = ele coloca tudo no centro
+    space-around = ele coloca o espacamneto iguais a tdos distribui igualmente o espaço livre
+    space-between = ele nao coloca os espaços no final ele divid entre eles deixando-os grudados com a margin final
+    space-evenly = todos os espaços iguais
+    */
+    /* cuida dos elementos no cross  */
+
+
+
+    align-items: center;
+    /*    Row                               Column
+    stretch =estica os elementos    / Continua como uma coluna!
+    center =centraliza eles         / Centraliza eles
+    flex-start= tudo em cima        / Tudo do lado Direito 
+    flex-end = tudo em baixo        / Tudo do lado Esquerdo 
+    */
+
+
+    /*cuida do coteudo do coiterner*/
+    /* Total centralizado  */
+    align-content: center;
+    height: 400px;
+    /* Gap e como o margin so que controlado pelo flex box */
+    gap: 10px;
+
+
+
+
+}
+
+
+.box-5 {
+    background-color: blue;
+    flex: 2;
+
+
+}
+
+.box-6 {
+    background-color: aqua;
+    flex: 2;
+}
+
+.box-7 {
+    background-color: blueviolet;
+    flex: 3;
+}
+
+.conteiner-flex-2 {
+    display: flex;
+    background-color: darkcyan;
+    justify-content:space-between;
+    height: 200px; 
+    width: 500px;
+    flex-wrap:wrap;
+}
